@@ -1,0 +1,52 @@
+section {
+    margin-top: 100px;
+}
+
+section .section--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+section .section--wrapper h2 {
+    text-align: center;
+}
+
+section .office--app--wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+section .office--app {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+}
+
+section .office--app img {
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+.background--grey {
+    background: #f5f5f5;
+}
+
+.section--margin {
+    margin-top: 100px;
+    max-width: 900px;
+}
+
+.section--link {
+    color: #0067b8;
+}
