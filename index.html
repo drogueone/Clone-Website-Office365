@@ -21,30 +21,31 @@
                 <nav>
                     <ul class="header--nav">
                         <li class="header--nav--item">
-                            <button class="header--nav--button" class="navbutton">Produtos</button>
+                            <button class="header--nav--button dropdown">Produtos</button>
                         </li>
                         <li class="header--nav--item">
-                            <button class="header--nav--button" class="navbutton">Recursos</button>
+                            <button class="header--nav--button dropdown">Recursos</button>
                         </li>
                         <li class="header--nav--item">
-                            <button class="header--nav--button" class="navbutton">Modelos</button>
+                            <button class="header--nav--button">Modelos</button>
                         </li>
                         <li class="header--nav--item">
-                            <button class="header--nav--button" class="navbutton">Suporte</button>
+                            <button class="header--nav--button">Suporte</button>
                         </li>
                         <li class="header--nav--item">
-                            <button class="header--nav--button" class="navbutton">Minha Conta</button>
+                            <button class="header--nav--button">Minha Conta</button>
                         </li>
                         <li class="header--nav--item">
-                            <button clbuttonss="header--nav--btn" href="#" class="navlink">Comprar Agora</a>
+                            <button class="header--nav--btn" href="#">Comprar Agora</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="header--nav--menu">
                 <button class="header--nav--item">
-                    <span class="header--nav--button">Toda a Microsoft</span>
+                    <span class="header--nav--button dropdown">Toda a Microsoft</span>
                 </button>
+                <span class="header--nav--button">Entrar</span>
                 <div class="header--nav--user">
                     <a href="#">
                         <img class="header--nav--userlogo" src="/icons/user-icon.svg" alt aria-hidden="true">
@@ -56,19 +57,29 @@
     <main>
         <div class="main--hero-section">
             <div class="main--content-gutter">
-                <div class="main--hero--content">
-                    <h1>Bem vindo ao Office</h1>
-                    <p>Seu local para criar, se comunicar, colaborar e realizar um excelente trabalho.</p>
-                    <div class="main--hero--buttons">
-                        <button href="#" class="btn--primary">Entrar</button>
-                        <button href="#" class="btn--outline">Obter o office</button>
+                <div class="main--width--restrictor">
+                    <div class="main--hero--content">
+                        <h1>Bem vindo ao Office</h1>
+                        <p>Seu local para criar, se comunicar, colaborar e realizar um excelente trabalho.</p>
+                        <div class="main--hero--buttons">
+                            <button href="#" class="btn--primary">Entrar</button>
+                            <button href="#" class="btn--outline">Obter o office</button>
+                        </div>
+                        <a class="main--hero--link" href="#">Inscreva-se para obter a versão gratuita do Office</a>
                     </div>
-                    <a class="main--hero--link" href="#">Inscreva-se para obter a versão gratuita do Office</a>
-                </div>
+                </div> 
             </div>
         </div>
-        <picture>
+        <!-- <picture>
             <img src="assets/hero-img.jpg" alt aria-hidden="true">
+        </picture> -->
+        <picture class="hero--image">
+            <source srcset="https://res-1.cdn.office.net/officehub/images/content/images/hero-xs-f51b963e9f.jpg" media="(max-width: 539px)" alt="" aria-hidden="true">
+            <source srcset="https://res-1.cdn.office.net/officehub/images/content/images/hero-sm-5b496137f1.jpg" media="(max-width: 767px)" alt="" aria-hidden="true">
+            <source srcset="https://res-1.cdn.office.net/officehub/images/content/images/hero-md-9db2f4c3f2.jpg" media="(max-width: 1083px)" alt="" aria-hidden="true">
+            <source srcset="https://res-1.cdn.office.net/officehub/images/content/images/hero-lg-1460635451.jpg" media="(max-width: 1259px)" alt="" aria-hidden="true">
+            <source srcset="https://res-1.cdn.office.net/officehub/images/content/images/hero-xl-73c5b55777.jpg" media="(max-width: 1599px)" alt="" aria-hidden="true">
+            <img class="" src="https://res-1.cdn.office.net/officehub/images/content/images/hero-xxl-b79c4b74fa.jpg" alt="" aria-hidden="true" />
         </picture>
     </main>
     <section>
@@ -106,9 +117,11 @@
             </div>
         </div>
     </section>
-    <section class="background--grey">
-        <img src="/assets/section-2.gif" alt aria-hidden="true">
-        <div class="section--wrapper">
+    <section>
+        <picture class="gif">
+            <img src="/assets/section-2.gif" alt aria-hidden="true">
+        </picture>
+        <div class="section--wrapper background--grey">
             <h2 class="section--margin">Obtenha os aplicativos premium do Office com o Microsoft 365</h2>
             <div class="office--app--wrapper">
                 <div class="office--app">

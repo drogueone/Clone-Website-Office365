@@ -7,9 +7,9 @@
 body {
     font-family: 'segoe UI', sans-serif;
     font-size: 12pt;
-    font-size: normal;
     color: #262626;
     overflow-x: hidden;
+    background: #fff;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 600;
 }
 
@@ -35,6 +35,7 @@ button {
     background: none;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn--primary {
@@ -49,6 +50,8 @@ button {
     font-weight: bold;
     max-width: 200px;
     transition: ease-out 0.1s;
+    min-width: 200px;
+    margin-bottom: 20px;
 }
 
 .btn--primary:hover {
@@ -67,6 +70,8 @@ button {
     font-weight: bold;
     max-width: 200px;
     transition: ease-out 0.1s;
+    min-width: 200px;
+    margin-bottom: 20px;
 }
 
 .btn--outline:hover {
